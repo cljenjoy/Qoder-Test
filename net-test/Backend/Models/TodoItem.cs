@@ -6,7 +6,7 @@ namespace Backend.Models;
 public class TodoItem
 {
     /// <summary>
-    /// 唯一标识，哈哈
+    /// 唯一标识
     /// </summary>
     public long Id { get; set; }
 
