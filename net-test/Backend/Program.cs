@@ -16,7 +16,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-// 配置 Swagger
+// 配置 Swagger,OK
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
