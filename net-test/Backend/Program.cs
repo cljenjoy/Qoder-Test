@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // 添加控制器服务
 builder.Services.AddControllers();
 
-// 配置 CORS，允许前端跨域访问
+// 配置 CORS，允许前端跨域访问，哈哈
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
